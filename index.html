@@ -4,42 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirankumar Narare | Profile</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="profile-header">
-            <!-- Profile Picture -->
-            <img src="profile-picture.jpg" alt="Your Name" class="profile-pic">
-            <h1>Mr. KiranKumar</h1>
-            <p>Welcome to my profile website!</p>
+    <!-- Header Section (Background Wallpaper) -->
+    <header class="profile-header text-white text-center py-5">
+        <div class="container">
+            <img src="profile-picture.jpg" alt="Your Name" class="profile-pic img-fluid rounded-circle mb-4" style="width: 150px;">
+            <h1 class="display-4">Mr. KiranKumar</h1>
+            <p class="lead">Welcome to my profile website!</p>
         </div>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Write a short introduction about yourself here. This could include your background, your interests, and your passion.</p>
-        <img src="your-second-photo.jpg" alt="About Me" class="about-img">
+    <!-- Technical Introduction Section -->
+    <section class="technical-intro py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-info">Technical Introduction</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Hello! I'm KiranKumar Narare, a Software Engineer with a passion for technology and innovation. I specialize in software development, constantly honing my skills to build efficient and scalable applications. I am always eager to learn and stay updated with the latest tech trends.</p>
+                    <p>My experience spans various technologies like web development, software architecture, and cloud computing. I enjoy solving complex problems and building impactful solutions that make a difference.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="tech-image.jpg" alt="Tech Image" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-        </ul>
+    <!-- Classical Music Section -->
+    <section class="classical-music py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="text-center text-warning">Classical Music</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>I am deeply passionate about Indian Classical Music. I am currently learning to play the sitar, and I find it incredibly fulfilling. The rich history and intricate melodies of classical music are a source of inspiration for me, and I often use music as a way to relax and focus my mind.</p>
+                    <p>Learning sitar has been a beautiful journey, and I continue to explore new ragas and compositions.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="sitar-playing.jpg" alt="Sitar Playing" class="img-fluid rounded shadow mb-4">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <!-- Travel Section -->
+    <section class="travel py-5" style="background-color: #e9ecef;">
+        <div class="container">
+            <h2 class="text-center text-success">Travel</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Traveling is one of my greatest passions. I love exploring new places, experiencing different cultures, and capturing the beauty of the world through my travels. Recently, I had the opportunity to visit Kedarnath and explore various breathtaking destinations in Uttarakhand.</p>
+                    <p>Each trip provides new perspectives and opportunities for personal growth, and I always look forward to my next adventure!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="kedarnath-1.jpg" alt="Kedarnath Image 1" class="img-fluid rounded shadow mb-4">
+                    <img src="kedarnath-2.jpg" alt="Kedarnath Image 2" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Your Name</p>
+    <!-- Skills Section -->
+    <section class="skills bg-light py-4">
+        <div class="container">
+            <h2 class="text-center text-success">Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Springboot</li>
+                <li class="list-group-item">Oracle/MySql</li>
+                <li class="list-group-item">HTML/CSS/JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact py-5">
+        <div class="container">
+            <h2 class="text-center text-warning">Contact</h2>
+            <p class="text-center">You can reach me at <a href="mailto:kirankumar@gmail.com" class="text-decoration-none">kirankumar@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Kirankumar Narare</p>
     </footer>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap components like modals) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
